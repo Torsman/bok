@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DZ(a)</title>
+    </head>
+    <body>
+        <form>
+
+           Enter ypur first name last name and age <br />
+           <input placeholder="First name:" /> <input placeholder="Last name:" /> <input placeholder="Age:" /> <br />
+<table>
+
+    <tr>
+        <td width="20"></td>
+        <td width="500">
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book.
+            </p>
+        <td width="35">
+            <td>
+                <input id="r1" type="radio" name="G1" /> <label for="r1">Answer 1</label> <br />
+                <input id="r2" type="radio" name="G1" /> <label for="r2">Answer 2</label> <br />
+                <input id="r3" type="radio" name="G1" /> <label for="r3">Answer 3</label> <br />
+                <input id="r4" type="radio" name="G1" /> <label for="r4">Answer 4</label> <br />
+            </td>
+        </td>
+    </tr>
+
+    <tr>
+        <td width="20"></td>
+        <td width="500">
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book.  
+            </p>
+        <td width="35">
+            <td>
+                <input id="r1" type="radio" name="G1" /> <label for="r1">Answer 1</label> <br />
+                <input id="r2" type="radio" name="G1" /> <label for="r2">Answer 2</label> <br />
+                <input id="r3" type="radio" name="G1" /> <label for="r3">Answer 3</label> <br />
+                <input id="r4" type="radio" name="G1" /> <label for="r4">Answer 4</label> <br />
+            </td>
+        </td>
+    </tr>
+
+    <tr>
+        <td width="20"></td>
+        <td width="500">
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book.  
+            </p>
+        <td width="35">
+            <td>
+                <input id="r1" type="radio" name="G1" /> <label for="r1">Answer 1</label> <br />
+                <input id="r2" type="radio" name="G1" /> <label for="r2">Answer 2</label> <br />
+                <input id="r3" type="radio" name="G1" /> <label for="r3">Answer 3</label> <br />
+                <input id="r4" type="radio" name="G1" /> <label for="r4">Answer 4</label> <br />
+            </td>
+        <td width="30">
+            <td>
+                <input id="r1" type="radio" name="G1" /> <label for="r1">Answer 1</label> <br />
+                <input id="r2" type="radio" name="G1" /> <label for="r2">Answer 2</label> <br />
+                <input id="r3" type="radio" name="G1" /> <label for="r3">Answer 3</label> <br />
+                <input id="r4" type="radio" name="G1" /> <label for="r4">Answer 4</label> <br />
+            </td>
+    </tr> 
+
+    <tr>   
+        <td width="20"></td>
+        <td width="500">
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book.  
+            </p>
+        <td width="35">
+            <td>
+                <input type="Checkbox" /> <label>Answer 1</label> <br />
+                <input type="Checkbox" /> <label>Answer 2</label> <br />
+                <input type="Checkbox" /> <label>Answer 3</label> <br />
+                <input type="Checkbox" /> <label>Answer 4</label> <br />
+            </td>
+        </td>
+    </tr>
+
+</table>
