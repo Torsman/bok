@@ -1,0 +1,118 @@
+body {
+    background-color: #e5e5e5;
+    margin: 0;
+   }
+   
+   .content {
+    width:60%;
+    min-width: 900px;
+    max-width: 1600px;
+    height: 97vh;
+    min-height: 800px;
+    margin: auto;
+   }
+   
+   .title {
+    color: white;
+    font: 2rem "Fira Sans", sans-serif;
+    font-size:40px;
+    text-align: center;
+    padding: 15px 0;
+   }
+
+   .aticon {
+    font: 2rem "Fira Sans", sans-serif;
+    font-size: 40px;
+    color: white;
+   }
+
+   .sub-title {
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 15px;
+   }
+   
+   footer {
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 0;
+   }
+   
+   .pictures {
+    width:100%;
+    height: calc(100% - 30px - 102px - 26px - 15px - 18px - 30px);
+    display: flex;
+   }
+  
+   .section {
+    margin: 4px;
+    width: 50%;
+    height: 113%;
+   }
+
+   .container{
+    width: 100%;
+    height: auto;
+    position: relative;
+   }
+   .container img{
+    width: 100%;
+   }
+   .container .text1{
+    font: 2rem "Fira Sans", sans-serif;
+    position: absolute;
+    color:  white;
+    left: 50%;
+    top: 50%;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+   }
+ 
+   .big-picture {
+    width: 99.7%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+   }
+   
+   .big-picture[bp="1"] {
+    width: 100%; 
+    margin: 9px 0 0;
+    background-image: url('./iceland_.jpg');
+   }
+   
+   .big-picture[bp="2"] {
+    margin-top: 13px;
+    background-image: url('./kenia.jpg');
+   }
+   
+   .sub-section {
+    margin-top: 10px;
+    width:102%;
+    height: 30%;
+    display: flex;
+   }
+   
+   .small-picture {
+    margin-right: 10px;
+    width: 96%;
+    height: 102%;
+    background-position: center;
+    background-size: cover;
+   }
+   #sp-1 {
+    background-image: url('./LakeWakatipuNewZealand.jpg');
+   }  
+   
+   #sp-2 {
+    background-image: url('./nepal-village.jpg');
+   }
+   
+   #sp-3 {
+    background-image: url('./the-alps-in-europe.jpg');
+   }
+
+   #sp-4 {
+    background-image: url('./ethiopia.jpg');
+   }
