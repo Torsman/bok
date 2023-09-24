@@ -1,0 +1,147 @@
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+ }
+ 
+ .content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ }
+
+ .rightcol  {
+  height: 100%;
+  width: 34%;
+  display: flex;
+  justify-content: right;
+ }
+ 
+
+
+ .leftcol  {
+  height: 100%;
+  width: 34%;
+  display: flex;
+  justify-content: left;
+  margin-right: 100px;
+  margin-top: 2%;
+ }
+
+
+.right-text{
+  justify-content: center;
+  margin-top: 69%;
+  height: 25%;
+  width: 116px;
+}
+
+
+.middlecol  {
+  height: 100%;
+  width: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+ }
+
+.image1{
+  background-size: 245%;
+  width: 80%;
+  height: 25%;
+  border-radius: 50%;
+  margin-top: 5%;
+  display: flex;
+  position: relative;
+}
+
+.image2{
+  background-size: 245%;
+  width: 80%;
+  height: 25%;
+  border-radius: 50%;
+  margin-top: 5%;
+  display: flex;
+  position: relative;
+  
+}
+
+.image3{
+  background-size: 245%;
+  width: 80%;
+  height: 25%;
+  border-radius: 50%;
+  margin-top: 5%;
+  display: flex;
+  position: relative;
+}
+
+
+.small-text2{
+  font-size: 22px;
+  width: 47%;
+}
+
+
+.small-text{
+  font-size: 22px;
+  margin-left: -85px;
+}
+
+.button{
+  font-size: 22px;
+  margin-left: 39px;
+  background-color: green;
+  border-radius: 10%;
+}
+
+.button{
+  font-size: 22px;
+  margin-left: 39px;
+  background-color: green;
+  border-radius: 10%;
+}
+
+.button2{
+  font-size: 22px;
+  width: 17%;
+  background-color: green;
+  border-radius: 10%;
+}
+
+.button3{
+  font-size: 22px;
+  width: 17%;
+  background-color: green;
+  border-radius: 10%;
+}
+
+.empty{
+  height: 41%;
+}
+
+
+.big-text{
+  font-weight: 900;
+  font-size: 22px;
+  margin-left: -85px;
+}
+
+.big-text2{
+  font-weight: 900;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+
+ #sp-1 {
+  background-image: url('./city.jpg');
+ }  
+ 
+ #sp-2 {
+  background-image: url('./road.jpg');
+ }
+ 
+ #sp-3 {
+  background-image: url('./trees.jpg');
+ }
