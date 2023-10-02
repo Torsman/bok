@@ -1,0 +1,129 @@
+p {
+    color: whitesmoke;
+}
+
+body {
+    overflow: hidden;
+    background-image: url("./FFTablet_1100x.progressive.png");
+    background-size: 100vw 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+    #bigimg {
+        display: none;
+    }
+}
+#top {
+    height: 15vh;
+    margin-top: 3vh;
+    display: flex;
+}
+#list {
+    display: flex;
+}
+.listitem {
+    margin-top: 0.5vw;
+    font-size: 2vw;
+    margin-left: 2vw;
+}
+#logo {
+    margin-left: 2vw;
+    width: 4vw;
+    height: 4vw;
+}
+#button {
+    background-color: transparent;
+    height: 3vmax;
+    margin-top: 1vw;
+    margin-left: auto;
+    margin-right: 3vw;
+    border: 1px solid white;
+}
+#btntxt {
+    font-size: 1.2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+
+
+
+#mid {
+    height: 50vh;
+}
+#texttop {
+    margin-top: 6vh;
+    font-size: 6vw;
+    font-weight: bold;
+    text-align: center;
+}
+#text-small {
+    font-size: 2vw;
+    text-align: center;
+}
+
+
+
+
+#bottom {
+    display: flex;
+}
+#text-bottom {
+    margin-left: 5vw;
+    font-size: 1.5vw;
+}
+#emblems {
+    width: 20vw;
+    height: 20vh;
+    margin-left: auto;
+    margin-right: 5vw;
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+    #smallimg {
+        display: none;
+    }
+}
+#top2 {
+    display: flex;
+    height: 20vh;
+    width: fit-content;
+    margin-left: auto;
+}
+.listitem2 {
+    margin-left: 3vw;
+    margin-top: 5vh;
+    font-size: 1.5rem;
+}
+
+
+
+
+#mid2 {
+    height: 55vh;
+}
+#texttop2 {
+    text-align: center;
+    font-size: 2rem;
+}
+#text-small2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5vh;
+}
+#emblems2 {
+    width: 20vw;
+    height: 20vh;
+    margin-left: 40vw;
+}
