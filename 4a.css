@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+p {
+    font-family: Calibri;
+}
+body {
+    overflow-x: hidden;
+}
+
+
+
+#top {
+    height: 40vw;
+}
+#top_bar {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    width: 50vw;
+    margin-top: 3vw;
+    margin-left: 25vw;
+}
+#photo {
+    position: relative;
+}
+.top_element {
+    font-size: 1.2vw;
+}
+#main_photo {
+    position: absolute;
+    filter: brightness(65%);
+    height: 30vw;
+    width: 45vw;
+    margin-top: 3vw;
+    margin-left: 27vw;
+    border-radius: 20px;
+}
+#top_text {
+    position: absolute;
+    font-size: 3vw;
+    left: 30vw;
+    color: white;
+    top: 8vw;
+}
+#small_txt {
+    position: absolute;
+    font-size: 1vw;
+    color: white;
+    left: 30vw;
+    top: 14vw;
+}
+#form {
+    display: flex;
+    background-color: #f2f2f2;
+    left: 30vw;
+    border-radius: 10px;
+    width: 25vw;
+    position: absolute;
+    top: 20vw;
+    height: 4vw;
+}
+#email {
+    width: 15vw;
+    font-size: 1.05vw;
+    background-color: white;
+    border: 0;
+    height: 2vw;
+    border-radius: 10px;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    padding-left: 1vw;
+}
+#submit {
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 1vw;
+    border: 0;
+    width: 6vw;
+    margin-left: 1vw;
+    height: 2vw;
+}
+
+
+
+#grid {
+    background-color: white;
+    height: 40vw;
+    width: 100vw;
+}
+#grid_items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2.5vw;
+    padding-top: 5vw;
+    height: 35vw;
+    margin-left: 25vw;
+    width: 50vw;
+}
+.item {
+    height: 15vw;
+    width: 15vw;
+}
+.grid_image {
+    border-radius: 50%;
+    height: 10vw;
+    margin-left: 2.5vw;
+    width: 10vw;
+}
+.name_im {
+    font-weight: bolder;
+    font-size: 1.2vw;
+    margin-top: 0.5vw;
+    text-align: center;
+}
+.text_grid {
+    font-weight: lighter;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-top: 0.5vw;
+}
+
+
+
+
+
+
+#images {
+    margin-top: 5vw;
+    margin-left: 25vw;
+    width: 50vw;
+}
+#header {
+    margin-top: 1vw;
+    font-weight: bolder;
+    font-size: 2vw;
+}
+#text_small {
+    font-size: 1.3vw;
+    margin-top: 0.5vw;
+}
+#big_img {
+    height: 30vw;
+    width: 50vw;
+    border-radius: 20px;
+    margin-top: 1vw;
+
+}
+
+
+
+#grid2 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5vw;
+    width: 50vw;
+    grid-row-gap: 1vw;
+    height: 33vw;
+    grid-column-gap: 1vw;
+}
+.grid_item2 {
+    height: 16vw;
+    width: 16vw;
+}
+
+
+
+#image2 {
+    display: flex;
+    width: 50vw;
+    height: 30vw;
+    margin-top: 5vw;
+}
+#iamge2_txt {
+    background-color: #f0effd;
+    width: 24vw;
+    margin-left: 2vw;
+    height: 30vw;
+    border-radius: 10px;
+}
+#top2 {
+    margin-top: 6vw;
+    margin-left: 1vw;
+    font-weight: bolder;
+    font-size: 3vw;
+}
+#txt2 {
+    margin-left: 1vw;
+    font-size: 1.2vw;
+    margin-top: 1vw;
+}
+
+
+
+#big-img2 {
+    width: 50vw;
+    margin-top: 5vw;
+}
+
+
+
+#foot {
+    height: 20vw;
+    background-color: #fbeced;
+    margin-top: 3vw;
+    width: 100vw;
+}
+#foot_content {
+    width: 50vw;
+    margin-left: 25vw;
+    height: 20vw;
+}
+#foot_top {
+    font-weight: bolder;
+    font-size: 2.5vw;
+    padding-top: 3vw;
+    margin-left: 1vw;
+}
+#foot_txt {
+    margin-top: 0.5vw;
+    font-size: 1.3vw;
+    margin-left: 1vw;
+}
+#foot_form {
+    margin-top: 2vw;
+    display: flex;
+    height: 5vw;
+    width: 50vw;
+}
+
+
+
+#form_name, #form_email {
+    height: 2vw;
+    border-radius: 10px;
+    margin-left: 1vw;
+    width: 16vw;
+    padding-left: 1vw;
+    border: 0;
+    font-size: 1.05vw;
+}
+#gethouse_form_name, #foot_form_email {
+    margin-top: 0.3vw;
+    margin-left: 1vw;
+    font-size: 1vw;
+}
+#foot_button {
+    border-radius: 10px;
+    background-color: black;
+    width: 6vw;
+    margin-left: 1vw;
+    border: 0;
+    height: 2vw;
+}
