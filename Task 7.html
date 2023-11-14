@@ -1,0 +1,52 @@
+<head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 50px;
+      }
+      form {
+        display: inline-block;
+        text-align: left;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <h1>Калькулятор для перевірки анаграм</h1>
+  
+    <form id="anagramForm">
+      <label for="word1">Введіть перше слово:</label>
+      <input type="text" id="word1" required>
+      
+      <br>
+  
+      <label for="word2">Введіть друге слово:</label>
+      <input type="text" id="word2" required>
+  
+      <br>
+  
+      <button type="button" onclick="checkAnagram()">Перевірити</button>
+    </form>
+  
+    <p id="result"></p>
+  
+    <script>
+      function checkAnagram() {
+        var word1 = document.getElementById('word1').value.toLowerCase();
+        var word2 = document.getElementById('word2').value.toLowerCase();
+  
+        //Чи з букв першого слова можна отримати друге слово
+        var sortedWord1 = word1.split('').sort().join('');
+        var sortedWord2 = word2.split('').sort().join('');
+        var isAnagram = sortedWord1 === sortedWord2;
+  
+        if (isAnagram) {
+          document.getElementById('result').innerHTML = '"' + word1 + '" та "' + word2 + '" - це анаграми';
+        } else {
+          document.getElementById('result').innerHTML = '"' + word1 + '" та "' + word2 + '" - не анаграми';
+        }
+      }
+    </script>
+  </body>
+  </html>

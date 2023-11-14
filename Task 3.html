@@ -1,0 +1,46 @@
+<head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 50px;
+      }
+      form {
+        display: inline-block;
+        text-align: left;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Калькулятор площі трикутника</h1>
+
+    <form id="triangleForm">
+      <label for="sideLength">Довжина сторони трикутника:</label>
+      <input type="number" id="sideLength" required>
+      
+      <br>
+  
+      <label for="height">Висота трикутника:</label>
+      <input type="number" id="height" required>
+  
+      <br>
+  
+      <button type="button" onclick="calculateArea()">Розрахувати площу</button>
+    </form>
+  
+    <p id="result"></p>
+  
+    <script>
+      function calculateArea() {
+
+        var sideLength = parseFloat(document.getElementById('sideLength').value);
+        var height = parseFloat(document.getElementById('height').value);
+
+        var area = 0.5 * sideLength * height;
+
+        document.getElementById('result').innerHTML = 'Площа трикутника: ' + area.toFixed(2);
+      }
+    </script>
+  </body>
+  </html>

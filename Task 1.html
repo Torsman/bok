@@ -1,0 +1,46 @@
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Калькулятор площі трикутника</h2>
+    
+    <label for="sideA">Сторона A:</label>
+    <input type="number" id="sideA" placeholder="Введіть довжину сторони A" required>
+    
+    <label for="sideB">Сторона B:</label>
+    <input type="number" id="sideB" placeholder="Введіть довжину сторони B" required>
+    
+    <label for="sideC">Сторона C:</label>
+    <input type="number" id="sideC" placeholder="Введіть довжину сторони C" required>
+    
+    <button onclick="calculateArea()">Розрахувати</button>
+
+    <p id="result"></p>
+
+    <script>
+        function calculateArea() {
+
+            var sideA = parseFloat(document.getElementById('sideA').value);
+            var sideB = parseFloat(document.getElementById('sideB').value);
+            var sideC = parseFloat(document.getElementById('sideC').value);
+
+            if (isNaN(sideA) || isNaN(sideB) || isNaN(sideC) || sideA <= 0 || sideB <= 0 || sideC <= 0) {
+                document.getElementById('result').innerHTML = 'Будь ласка введіть коректні значення сторін.';
+                return;
+            }
+            //Півпериметр
+            var s = (sideA + sideB + sideC) / 2;
+            //Герон
+            var area = Math.sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
+             //Результат
+            document.getElementById('result').innerHTML = 'Площа трикутника: ' + area.toFixed(2);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 50px;
+      }
+      form {
+        display: inline-block;
+        text-align: left;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Калькулятор паліндрому</h1>
+  
+    <form id="palindromeForm">
+      <label for="numberInput">Введіть число:</label>
+      <input type="number" id="numberInput" required>
+      
+      <br>
+  
+      <button type="button" onclick="checkPalindrome()">Перевірити</button>
+    </form>
+  
+    <p id="result"></p>
+  
+    <script>
+      function checkPalindrome() {
+
+        var number = document.getElementById('numberInput').value;
+  
+        //Чи число є паліндромом
+        var reversedNumber = parseInt(number.toString().split('').reverse().join(''));
+        var isPalindrome = parseInt(number) === reversedNumber;
+  
+        if (isPalindrome) {
+          document.getElementById('result').innerHTML = number + ' - це паліндром';
+        } else {
+          document.getElementById('result').innerHTML = number + ' - не є паліндромом';
+        }
+      }
+    </script>
+  </body>
+  </html>

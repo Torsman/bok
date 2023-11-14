@@ -1,0 +1,49 @@
+<head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 50px;
+      }
+  
+      form {
+        display: inline-block;
+        text-align: left;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Калькулятор для послідовності Фібоначчі</h1>
+  
+    <form id="fibonacciForm">
+      <label for="fibonacciNumber">Введіть порядковий номер:</label>
+      <input type="number" id="fibonacciNumber" required>
+      
+      <br>
+  
+      <button type="button" onclick="calculateFibonacci()">Отримати число</button>
+    </form>
+  
+    <p id="result"></p>
+  
+    <script>
+      function calculateFibonacci() {
+
+        var n = parseInt(document.getElementById('fibonacciNumber').value);
+  
+        var fibonacciResult = fibonacci(n);
+  
+        document.getElementById('result').innerHTML = 'Число в послідовності Фібоначчі для номеру ' + n + ': ' + fibonacciResult;
+      }
+  
+      function fibonacci(n) {
+        if (n <= 1) {
+          return n;
+        } else {
+          return fibonacci(n - 1) + fibonacci(n - 2);
+        }
+      }
+    </script>
+  </body>
+  </html>
