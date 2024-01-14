@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<script>
+    function toggleThemeExternally() {
+      toggleTheme();
+    }
+  </script>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Exam</title>
+    <link rel="stylesheet" href="/src/components/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="container">
+            <span id="links">
+                <a href="#header">HOME</a>
+                <a href="#experience">EXPERIENCE</a>
+                <a href="#projects">PROJECT</a>
+                <a href="#contact">CONTACT</a>
+            </span>
+        </div>
+    </div>
+    <center>
+        <div class="section" id="header">
+            <div class="container">
+                <div id="img-border"><img id="image" src="/img/ava.jpg" /></div>
+                <h1>Hi, I'm Oleksander Seredyak!</h1>
+                <h3>I'm a student of best university in the world</br> IT Step </h3>
+                <p id="about">
+                    This is my very first personal website<br>in which you can discover some interesting stuff about me
+                </p>
+                <button><a href="https://github.com/Torsman" target="_blank">GitHub</a></button>
+                <button><a href="https://www.linkedin.com/in/oleksander-serediak-424139283" target="_blank">LinkedIn</a></button>
+                <button><a href="https://docdro.id/Otw06gS"
+                        target="_blank">Resume</a></button>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="section" id="experience">
+            <div class="container">
+                <h3 class="section-header" id="experience-header">Experience</h3>
+                <div class="card">
+                    <span class="experience-title"> CEO </span> <br>
+                    <span class="experience-company"> Google |</span>
+                    <span class="experience-dates"> May 2022 - August 2023 </span>
+                    <ul>
+                        <li>
+                            Became a CEO.
+                        </li>
+                        <li>
+                            Had a posabillity to work in team-works as a Tech Lead. 
+                        </li>
+                        <li>
+                           Powerfull communicative and leading skills.
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <span class="experience-title"> Python, C#, C++ developer on senior level </span> <br>
+                    <span class="experience-company"> OpenAI | </span>
+                    <span class="experience-dates"> May 2021 - August 2022 </span>
+                    <ul>
+                        <li>
+                            Had a opportunity to develope my hard-programming skills.
+                        </li>
+                        <li>
+                            Take part in launching ChatGPT 3.0. One of main creators.
+                        </li>
+                        <li>
+                            Lead bunch of people, in AI programme.
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <span class="experience-title"> Junior developer </span> <br>
+                    <span class="experience-company"> SoftServ HQ |</span>
+                    <span class="experience-dates"> May 2017 - August 2020 </span>
+                    <ul>
+                        <li>
+                            Lernt basics of programming and machine learning.
+                        </li>
+                        <li>
+                            Started upgrading softskills in different team works.
+                        </li>
+                        <li>
+                            Finished my university and had a chance to work in Ukrainian mega-company .
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="projects">
+            <div class="container">
+                <h3 class="section-header" id="project-header">Projects</h3>
+                <div class="card">
+                    <span class="project-title"> Gemini </span> <br>
+                    <span class="project-languages"> Python | </span>
+                    <span class="project-dates"> Fall 2024 </span>
+                    <p class="project-description">
+                        Proident ex culpa nulla voluptate nostrud fugiat tempor in exercitation
+                        nostrud deserunt sunt.
+                    </p>
+                    <button onclick="openProjectWindow('https://deepmind.google/technologies/gemini/#introduction')">VIEW PROJECT</button>
+                </div>
+                
+                <div class="card">
+                    <span class="project-title"> First self-learning AI </span> <br>
+                    <span class="project-languages"> OpenAI | </span>
+                    <span class="project-dates"> Spring 2023 </span>
+                    <p class="project-description">
+                        Aliquip reprehenderit sint aliqua labore fugiat non cupidatat ullamco
+                        labore veniam aliquip velit proident.
+                    </p>
+                    <button onclick="openProjectWindow('https://openai.com')">VIEW PROJECT</button>
+                </div>
+                <div class="card">
+                    <span class="project-title"> Some Terrible WEB Labs </span> <br>
+                    <span class="project-languages"> C | </span>
+                    <span class="project-dates"> Autumn 2023 </span>
+                    <p class="project-description">
+                        Incididunt fugiat est sit qui.
+                    </p>
+                    <button onclick="openProjectWindow('https://callingbullshit.org')">VIEW PROJECT</button>
+                </div>
+
+                <script>
+                    function openProjectWindow(projectUrl) {
+                        window.open(projectUrl, '_blank');
+                    }
+                </script>
+
+            </div>
+        </div>
+
+        <div class="section" id="contact">
+            <div class="container">
+                <h3 class="section-header" id="contact-header">Contact</h3>
+
+                <p>
+                    Phone number: +38 (097) 367 2890
+                </p>
+                <p>
+                    Email: <a href="mailto:alex.seredjak@gmail.com">alex.seredjak@gmail.com</a>
+                </p>
+
+            </div>
+        </div>
+
+        <footer>   
+            <button onClick={toggleTheme}>TOGGLE THEME</button>
+        </footer>
+        
+
+    </center>
+
+</html>
